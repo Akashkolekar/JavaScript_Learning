@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Session Storage</title>
+</head>
+
+<body>
+    <!-- <p id="akash"></p> -->
+    <script>
+    //    let element = document.getElementById('akash')
+    //     console.log(element);
+        window.sessionStorage.setItem("firstName","Mohit");
+        window.sessionStorage.setItem("lastName","Sharma");
+        window.sessionStorage.setItem("country","India");
+        window.sessionStorage.setItem("runs","25000");
+        // window.sessionStorage.clear()
+        console.log(`length of session storage: ${window.sessionStorage.length}`);
+        console.log(`getItem of 'runs': ${window.sessionStorage.getItem("runs")}`)
+        console.log(`getItem of 'country': ${window.sessionStorage.getItem("country")}`);
+        
+    </script>
+</body>
+
+</html>
